@@ -1,0 +1,19 @@
+step1:
+  sql_filepath: "./data/1-setup.sql"
+
+step2:
+  csv_filepaths:
+    - "./data/sample1.csv"
+    - "./data/sample2.csv"
+  columns_map:
+    "Product Name": name
+    "Product Description": description
+    "Product Price": price
+    "Is Product Expired": is_expired
+  table_name: "product_items"
+  database_name: "products"
+
+step3:
+  sql_query_filepath: "./data/read-records.sql"
+  sql_result_filepath: "./data/run.txt"
+

@@ -1,0 +1,1 @@
+[(1, 'Product1', 'Sample description', 20.0, 0), (2, 'Product2', 'Sample description', 20.58, 1), (5, 'Product3', 'Sample description', 20.0, 0)]
